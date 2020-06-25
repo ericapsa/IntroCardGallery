@@ -1,0 +1,46 @@
+@import url("fontawesome-all.min.css");
+/* targets everything inbetween the html < and > */
+html {
+  margin: 60px;
+  background: #fffef7;
+}
+
+#profile {
+  height: 200px;
+  border-radius: 40%;
+}
+
+img {
+  height: 300px;
+  position: relative;
+}
+
+body {
+  font-family: fantasy;
+  text-align: center;
+  padding: 9px;
+  /*Max width, then margin: auto to auto adjust*/
+  max-width: 30em;
+  margin: auto;
+}
+/*using the . for the class!*/
+
+/*# is for calling the ID*/
+#box {
+  /* borders take 3 properties: Width, texture, color */
+  border: 10px solid #eb4034;
+  margin-bottom: 30px;
+}
+
+
+h2{
+  color: #eb4034
+}
+h3 {
+  color: #81a381;
+}
+h4{
+  color: #966852;
+}
+
+/* orange: #eb4034  green: #c6e6be */
